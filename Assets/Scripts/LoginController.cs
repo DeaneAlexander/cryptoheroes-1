@@ -179,7 +179,6 @@ public class LoginController : MonoBehaviour
             "1. Look for cheap items on the marketplace, these will be useful in order to grind dungeons",
             "2. Focus on a single hero at the beginning, once you have enough items, look into other heroes",
             "3. raids are the main form of earning in the game, but in order to raid, you need good items",
-            "4. focus on dungeon grinding in order to form an economy and start trading/forging new items",
-            "5. join our discord to meet more players who can help you with the game, as well as raiding!"});
+            "4. focus on dungeon grinding in order to form an economy and start trading/forging new items"});
     }
 }

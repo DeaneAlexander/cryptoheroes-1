@@ -606,7 +606,7 @@ public class RaidController : MonoBehaviour, IEnhancedScrollerDelegate
                     rewardText.SetString($"by end of the week, each member of your team will receive approximately {Mathf.RoundToInt(3000f / totalKillAmount * yourKillAmount / 8)} @", Color.white);
                     break;
             }
-            //rewardText.SetString($"please check discord for more info on your team rewards", Color.white);
+           
         }
         else
         {

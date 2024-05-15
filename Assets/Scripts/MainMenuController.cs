@@ -487,10 +487,6 @@ public class MainMenuController : MonoBehaviour
     {
         maintenanceWindow.SetActive(true);
     }
-    public void OnDiscordClick()
-    {
-        Application.OpenURL("https://discord.gg/xFAAa8Db6f");
-    }
     public void OnTelegramClick()
     {
         Application.OpenURL("https://twitter.com/PixelDapps");
