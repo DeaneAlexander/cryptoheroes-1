@@ -122,7 +122,7 @@ public class DifficultyController : MonoBehaviour
                 legendaryTexts[0].SetString("Chance of legendary", faintRarityColors[3]);
                 legendaryTexts[1].SetString("item drops: 0%", faintRarityColors[3]);
                 restTexts[1].SetString($"{30 - restRemoval} minutes");
-                expTexts[0].SetString("10 exp on win");
+                expTexts[0].SetString("20 exp on win");
                 recTexts[0].SetString("minimum level of 1");
                 recTexts[1].SetString("good common gear");
                 break;
@@ -145,7 +145,7 @@ public class DifficultyController : MonoBehaviour
                 {
                     restTexts[1].SetString("1 hour");
                 }
-                expTexts[0].SetString("20 exp on win");
+                expTexts[0].SetString("40 exp on win");
                 recTexts[0].SetString("minimum level of 20");
                 recTexts[1].SetString("good rare gear");
                 break;
@@ -169,7 +169,7 @@ public class DifficultyController : MonoBehaviour
                 {
                     restTexts[1].SetString("4 hours");
                 }
-                expTexts[0].SetString("80 exp on win");
+                expTexts[0].SetString("160 exp on win");
                 recTexts[0].SetString("minimum level of 40");
                 recTexts[1].SetString("good epic gear");
                 break;
@@ -194,7 +194,7 @@ public class DifficultyController : MonoBehaviour
                 {
                     restTexts[1].SetString("12 hours");
                 }
-                expTexts[0].SetString("240 exp on win");
+                expTexts[0].SetString("480 exp on win");
                 recTexts[0].SetString("minimum level of 70");
                 recTexts[1].SetString("good legendary gear");
                 break;

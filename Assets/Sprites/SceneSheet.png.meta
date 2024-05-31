@@ -378,7 +378,7 @@ TextureImporter:
       213: 6550966191576208358
     second: SceneSheet_124
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -395,10 +395,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -437,6 +439,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -448,6 +452,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -460,6 +465,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -472,6 +478,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3112,9 +3132,134 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      SceneSheet_0: -2526232862329443968
+      SceneSheet_1: 5242514395060754733
+      SceneSheet_10: -1178799258882041482
+      SceneSheet_100: -7233024428339281209
+      SceneSheet_101: 922557441866089913
+      SceneSheet_102: 7751893921370278744
+      SceneSheet_103: 6093271051986953366
+      SceneSheet_104: -5787888569816158662
+      SceneSheet_105: -5818220819817493137
+      SceneSheet_106: -1488892822709575760
+      SceneSheet_107: 3703324177850337020
+      SceneSheet_108: -7688659469144833935
+      SceneSheet_109: 5640209575993821568
+      SceneSheet_11: -637285569612356877
+      SceneSheet_110: -661620720471548219
+      SceneSheet_111: 1207961754838191133
+      SceneSheet_112: 8145109779957723611
+      SceneSheet_113: 2200858429128585993
+      SceneSheet_114: 7428701216164186621
+      SceneSheet_115: -5219642186515712419
+      SceneSheet_116: 4814408766629575309
+      SceneSheet_117: 3722509934480926676
+      SceneSheet_118: -6327157274695088
+      SceneSheet_119: 7339266891342426561
+      SceneSheet_12: 56401215061629206
+      SceneSheet_120: -2216771038549808390
+      SceneSheet_121: -3099194206755910155
+      SceneSheet_122: -5802697286297255950
+      SceneSheet_123: 938677632025107256
+      SceneSheet_124: 6550966191576208358
+      SceneSheet_13: 8662961084833900410
+      SceneSheet_14: 5077197353353602231
+      SceneSheet_15: -932668284212162538
+      SceneSheet_16: 4734652939106259293
+      SceneSheet_17: 5808686885110204449
+      SceneSheet_18: 6185031247788028880
+      SceneSheet_19: -5945668789385166760
+      SceneSheet_2: -8513965488618211853
+      SceneSheet_20: 2375976209008754178
+      SceneSheet_21: -8007510211040794484
+      SceneSheet_22: -7839234709996565307
+      SceneSheet_23: -9108492994593237434
+      SceneSheet_24: 3168846647233232830
+      SceneSheet_25: -707161988663960154
+      SceneSheet_26: 582255108551993371
+      SceneSheet_27: 7372701602241924564
+      SceneSheet_28: -447234020366852564
+      SceneSheet_29: 8709805416890728081
+      SceneSheet_3: -2521248312814344942
+      SceneSheet_30: -4533766512015359133
+      SceneSheet_31: 289345541311923727
+      SceneSheet_32: -1829909786379442354
+      SceneSheet_33: -6963683870674743250
+      SceneSheet_34: 7306096001232559099
+      SceneSheet_35: -853983248616807136
+      SceneSheet_36: 9138615747139575187
+      SceneSheet_37: 1267344035695475644
+      SceneSheet_38: -4444419760110142332
+      SceneSheet_39: 3846309313604680831
+      SceneSheet_4: -6939085314089920116
+      SceneSheet_40: 2213429431811335367
+      SceneSheet_41: 1974784699091813080
+      SceneSheet_42: -2675363544006940407
+      SceneSheet_43: 3613989147985106312
+      SceneSheet_44: 9143823647415010253
+      SceneSheet_45: -8742319675015919231
+      SceneSheet_46: -4079561720666552520
+      SceneSheet_47: -3106643955946467804
+      SceneSheet_48: -5960398901387363776
+      SceneSheet_49: -3051775226321251793
+      SceneSheet_5: 2824991085661750663
+      SceneSheet_50: 2577631504636214663
+      SceneSheet_51: 5861214829838093770
+      SceneSheet_52: -9163363150617307335
+      SceneSheet_53: 4511551979638158401
+      SceneSheet_54: 585389478116538414
+      SceneSheet_55: 2643646839959096910
+      SceneSheet_56: 7524164834434454247
+      SceneSheet_57: -5454603279655479731
+      SceneSheet_58: -2013009519109122862
+      SceneSheet_59: -5263206064035661684
+      SceneSheet_6: 4840769222046341568
+      SceneSheet_60: 8488520293369751528
+      SceneSheet_61: 3669518803782556005
+      SceneSheet_62: 2658583973999597053
+      SceneSheet_63: -2489095232216182081
+      SceneSheet_64: 3520953828921840569
+      SceneSheet_65: 8180811906911196480
+      SceneSheet_66: -5612535364983598420
+      SceneSheet_67: 4841721218471597093
+      SceneSheet_68: 3594543592911693672
+      SceneSheet_69: 2721129719695416193
+      SceneSheet_7: 3615138678971967348
+      SceneSheet_70: 3949653194398511620
+      SceneSheet_71: -8906244057964435830
+      SceneSheet_72: 2400933735455932282
+      SceneSheet_73: -8469783334579356886
+      SceneSheet_74: 7182228385003950992
+      SceneSheet_75: -44645120696986537
+      SceneSheet_76: 6915631785941688220
+      SceneSheet_77: -275876512193394913
+      SceneSheet_78: -4648888730624628266
+      SceneSheet_79: -2529640298407688328
+      SceneSheet_8: -454620487433255434
+      SceneSheet_80: 954125431743386345
+      SceneSheet_81: 6007141464055875246
+      SceneSheet_82: 3508670784758852890
+      SceneSheet_83: 4486674485235208003
+      SceneSheet_84: 8125974383398856633
+      SceneSheet_85: -2200671256131903208
+      SceneSheet_86: 4113416399349438416
+      SceneSheet_87: 7199170898492522960
+      SceneSheet_88: -3842266099271746280
+      SceneSheet_89: 7236584722346654239
+      SceneSheet_9: 4269987098629458810
+      SceneSheet_90: -3746678459347058049
+      SceneSheet_91: -3424955375871395212
+      SceneSheet_92: 3699220669160370143
+      SceneSheet_93: -8725005835520967509
+      SceneSheet_94: 4093752878077758502
+      SceneSheet_95: -5400789238484941775
+      SceneSheet_96: 8935440036844541419
+      SceneSheet_97: -1182805040775871186
+      SceneSheet_98: 8836431176387685742
+      SceneSheet_99: 4798502768272075872
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
