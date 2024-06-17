@@ -713,7 +713,7 @@ public class NearHelper : MonoBehaviour
         {
             if (res.error != "LackBalanceForState" && res.error != "NotEnoughAllowance")
             {
-                BaseUtils.ShowWarningMessage("Error on joining group", new string[3] { "There was an error joining that group", "please make sure you are inputting the correct wallet adress with .near at the end!", "if it persists, refresh your page." });
+                BaseUtils.ShowWarningMessage("Error on joining group", new string[3] { "There was an error joining that group", "please make sure you are inputting the correct wallet adress with .near at the end!", "if it persists, refresh your page." "Or the group is full of members." });
             }
             else
             {
