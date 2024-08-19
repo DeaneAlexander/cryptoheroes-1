@@ -868,7 +868,7 @@ public class NearHelper : MonoBehaviour
     }
     private void OnAcceptRelogin()
     {
-        mainMenuController.OnLogoutClick();
+        mainMenuController.OnClick();
     }
     public IEnumerator RequestPotionBuy(int classType, int potionToBuy)
     {
